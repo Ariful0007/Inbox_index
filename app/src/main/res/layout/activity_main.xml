@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:text="01754201532"
+        android:hint="Enter number"
+        android:textSize="20dp"
+
+        >
+
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="Enter SMS"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="60dp"
+        android:id="@+id/text"
+
+        >
+
+    </EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:id="@+id/okey"
+        android:text="Send"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        >
+
+    </Button>
+</RelativeLayout>
